@@ -1,30 +1,19 @@
-# dotBeats Case Studio
+# dotBeats · 26 mm Assembly
 
-交互式外壳与按键设计、独立模型文件和按压演示。Interactive enclosure and button design, downloadable models and mechanism videos.
+[Explore the assembly](https://evannnx.github.io/dotbeats-case-studio/) · [Download parts](https://evannnx.github.io/dotbeats-case-studio/#downloads)
 
-- [在线预览 / Live preview](https://evannnx.github.io/dotbeats-case-studio/)
-- [合体版 / Combined C01](https://evannnx.github.io/dotbeats-case-studio/combined/)
-- [下载与视频 / Downloads and videos](https://evannnx.github.io/dotbeats-case-studio/downloads.html)
+A fixed 26 mm assembly viewer with exploded views, part explanations and a hardware list.
 
-## Versions / 版本
+dotBeats C01 / 26 mm assembly
+Units: STL in mm, GLB in metres. Print parts separately.
+Print: base x1, lid x1, cap x6, plug x6. panel is an optional single-key fit coupon.
+Hardware: 4 x M2.5 brass heat-set inserts (4.6 mm OD x 4 mm length); 4 x M2.5 x 8 mm machine screws (length measured below head). Head must fit a 5 mm diameter x 3.5 mm deep recess.
+Insert pockets: diameter 4.0 mm, nominal depth 5.0 mm, in the lid posts. Install from the open ends of the posts before closing the case. Screws enter from the underside of the base.
+Assembly: insert keycaps from outside the lid; place the motors inside; fit the carrier/plunger from inside and bond the cap-to-carrier joint without contaminating sliding surfaces. Fit the PCB and battery in the base. Lower the lid so each plunger aligns with a switch, then install the four enclosure screws.
+This enclosure hardware does not specify PCB retention screws. PCB mounting and side-button internals remain prototype details to verify.
+Motor reference: LRA1040 family diameter 10 mm x 4 mm; verify the exact -0301 unit and solder protrusions before purchase/printing. Six motors are needed for six active face buttons. Use the existing matching PCB, ESP and switches. Battery envelope: diameter 18.7 mm x 53.3 mm, wire protrusion envelope 21.7 mm.
+Test one printed button first. Switch actuation, overtravel, return, adhesive, wire routing and FDM clearances require physical validation.
 
-Original case: 28 mm. B03: standalone two-piece motor button. C01: separate 26 mm enclosure assembly with shorter 9.5 mm plungers. Original versions are preserved.
+## Development
 
-原壳体、独立 B03 按键与 C01 合体版分别保存。模型包在 `public/assets/dotbeats_three_versions.zip`。STL 单位 mm；GLB 单位 m。
-
-## Run / 本地运行
-
-```sh
-npm ci
-npm run dev
-```
-
-Open `/dotbeats-case-studio/`. To update GitHub Pages, run `npm run build`, replace `docs/` with `dist/`, add `docs/.nojekyll`, then commit and push. Pages serves `main:/docs`.
-
-## Prototype status / 原型状态
-
-Geometry and mesh checks do not establish physical reliability. The 0.25 mm actuation and 0.40 mm stop travel are design assumptions. Motor solder clearance, switch overtravel, wire routing, FDM fit and return need physical testing.
-
-几何检查不代表实物可靠性。触发行程、限位、焊点空间、线束、打印配合与回弹均需试装验证。
-
-PCB and ESP geometry are user-supplied references; no third-party licensing rights are asserted. Public access enables viewing and downloading; no blanket open-source license is granted.
+`npm ci` then `npm run dev`. Run `npm run build`, copy dist to docs, add docs/.nojekyll, and push main to publish GitHub Pages.
