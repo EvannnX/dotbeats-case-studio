@@ -1,0 +1,2 @@
+@import url('./button.css');
+nav{flex-wrap:wrap;gap:7px}nav a{font-size:11px;border-bottom:1px solid #aebeb3}.intro h1{font-size:28px}.note a{text-decoration:underline}.toolbar{gap:6px}
