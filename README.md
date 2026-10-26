@@ -17,3 +17,7 @@ Test one printed button first. Switch actuation, overtravel, return, adhesive, w
 ## Development
 
 `npm ci` then `npm run dev`. Run `npm run build`, copy dist to docs, add docs/.nojekyll, and push main to publish GitHub Pages.
+
+
+## S01 side-button update
+Two 6 × 6 × 4.3 mm momentary tactile switches at 80 mm centres. Integral base cradles, removable screw retainers, captured caps, and a nominal 0.50 mm stop. Download includes a single-button fit coupon. Reference: Omron B3F-1000; verify real switch dimensions and travel before printing the full base. Existing C01 lid and front-button parts are retained.
