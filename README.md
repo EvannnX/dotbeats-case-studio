@@ -27,5 +27,13 @@ Two 6 × 6 × 4.3 mm momentary tactile switches at 80 mm centres. Integral base 
 Ten interactive assembly steps and a printable guide. Three PCB mounts now include centering bushes, insulating washers, M2.5 x 6 mm screws and underside hex-nut pockets. Use the S02 base; the S01 base lacks these pockets. PCB height remains unchanged. Download includes updated printable parts and digital checks; physical fit and button return still require testing.
 
 
-## S03 centered front buttons (current)
+## S03 centered front buttons
 The six front keys and matching lid openings are centered on the 86.5 × 140 × 26 mm enclosure. Keyed caps and offset carrier plungers preserve the existing PCB, ESP, USB and mounting positions. Use the matching S03 lid, caps and carriers together; the S02 base can be reused. The viewer opens in an orthographic front view and retains the ten assembly steps, exploded views and PCB hardware guide. The download contains the updated STL parts, assembly GLB and geometry checks. Physical fit, friction and return still require a trial print.
+
+
+## S04 removable side-button holders (current reference trial)
+Separate holders and bridges replace the fixed cradles. Install nuts, lower and slide the cap outward, then lower the holder, switch and bridge before fitting two M2 × 18 mm machine screws per module. Side nuts are M2, AF4 × 1.6 mm. Use the new S04 base and side parts together; the S03 front-key design is retained.
+
+[Seven-step animated installation](https://evannnx.github.io/dotbeats-case-studio/side.html) includes play/pause, replay and scrubbing. [Download the trial package](https://evannnx.github.io/dotbeats-case-studio/assets/S04-package.zip).
+
+Actual purchased switch dimensions remain unconfirmed. The model uses a 6 × 6 × 4.3 mm reference switch. Sampled insertion paths and stationary PCB clearances passed digital checks; this is not a guarantee of real fit, wiring clearance or reliable return. Print the included single-side coupon first and verify with actual hardware before printing the full base.

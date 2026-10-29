@@ -1,1 +1,1 @@
-import {defineConfig} from 'vite';export default defineConfig({base:'/dotbeats-case-studio/',build:{rollupOptions:{input:{main:'index.html',combined:'combined/index.html'}}}});
+import {defineConfig} from 'vite';export default defineConfig({base:'/dotbeats-case-studio/',build:{rollupOptions:{input:{main:'index.html',combined:'combined/index.html',side:'side.html'}}}});
